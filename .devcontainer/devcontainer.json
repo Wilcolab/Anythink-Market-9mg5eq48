@@ -9,6 +9,15 @@
     "CODESPACE_NAME": "${localEnv:CODESPACE_NAME}",
     "GITHUB_REPOSITORY": "${localEnv:GITHUB_REPOSITORY}"
   },
+  "forwardPorts": [3009],
+  "portsAttributes": {
+    "3009": {
+      "label": "Wilco Agent",
+      "onAutoForward": "silent",
+      "visibility": "public",
+    },
+  },
+
   "customizations": {
     "codespaces": {
       "openFiles": []
